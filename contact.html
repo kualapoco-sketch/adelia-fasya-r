@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Adelia Fasya Rosadi</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">Adelia <span>Fasya</span></a>
+    <button class="nav-toggle" aria-label="Buka menu"><span></span><span></span><span></span></button>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="container reveal">
+    <span class="eyebrow">Mari Terhubung</span>
+    <h1 class="page-title">Hubungi <em>Saya</em></h1>
+    <p class="page-sub">Punya project, kolaborasi, atau sekadar ingin menyapa? Silakan hubungi lewat salah satu kanal berikut.</p>
+  </div>
+</header>
+
+<section class="contact-section">
+  <div class="container contact-grid">
+
+    <div class="contact-cards reveal">
+      <a class="contact-card" href="mailto:adeliafasya@gmail.com">
+        <div class="cc-icon">&#9993;</div>
+        <div>
+          <h3>Email</h3>
+          <p>adeliafasya@gmail.com</p>
+        </div>
+      </a>
+      <a class="contact-card" href="https://instagram.com/adeliaafsy" target="_blank" rel="noopener">
+        <div class="cc-icon">&#9737;</div>
+        <div>
+          <h3>Instagram</h3>
+          <p>@adeliaafsy</p>
+        </div>
+      </a>
+      <a class="contact-card" href="https://wa.me/6281234567890" target="_blank" rel="noopener">
+        <div class="cc-icon">&#9742;</div>
+        <div>
+          <h3>WhatsApp</h3>
+          <p>+62 812-3456-7890</p>
+        </div>
+      </a>
+    </div>
+
+    <form class="contact-form reveal" onsubmit="return handleContactSubmit(event)">
+      <h2>Kirim Pesan</h2>
+      <label for="name">Nama</label>
+      <input type="text" id="name" name="name" placeholder="Nama kamu" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="email@contoh.com" required>
+
+      <label for="message">Pesan</label>
+      <textarea id="message" name="message" rows="5" placeholder="Tulis pesanmu di sini..." required></textarea>
+
+      <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+      <p id="form-status" class="form-status"></p>
+    </form>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div>
+      <div class="footer-name">Adelia Fasya Rosadi</div>
+      <div class="footer-meta">NIM 241330017</div>
+    </div>
+    <div class="footer-links">
+      <a href="mailto:adeliafasya@gmail.com">Email</a>
+      <a href="https://instagram.com/adeliaafsy" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://wa.me/6281234567890" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+  <div class="footer-copy">Copyright &copy; 2026 Adelia Fasya Rosadi. All rights reserved.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
